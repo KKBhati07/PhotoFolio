@@ -1,0 +1,56 @@
+/* -------------------FORM TO ADD IMAGES TO THE DATABASE------------------------- */
+.form {
+    width: 45vw;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgb(235, 107, 107);
+    transition: height 0.5s ease;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* CLOSE BUTTON */
+.form>img {
+    width: 40px;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    right: 10%;
+    bottom: 5px;
+}
+
+/* HEADING */
+.form>p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+/* INPUT */
+.form>input {
+    padding-left: 10px;
+    font-size: 1.1rem;
+    width: 80%;
+    outline: none;
+    border-color: aliceblue;
+    border-radius: 50px;
+    background-color: rgb(173, 173, 173);
+    border: 2px solid white;
+    height: 6vh;
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+/* SUBMIT BUTTON */
+.form>input[type="submit"] {
+    width: 70%;
+    background-color: rgb(112, 112, 112);
+    color: white;
+}

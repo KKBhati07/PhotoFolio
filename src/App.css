@@ -1,0 +1,48 @@
+/* TO CUSTOMIZE TOASTR NOTIFICATIONS */
+
+#toast-container>div.toast {
+  opacity: 1;
+}
+
+.toast-success {
+  background-color: var(--successNotifyColor);
+}
+
+.toast-error {
+  background-color: var(--errorNotifyColor);
+
+}
+
+
+/* -----------------------CREATE ALBUM FORM CONTAINER--------------- */
+
+.create-album-from-container {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 3px white solid;
+}
+
+/* INTERNAL DIV */
+.create-album-from-container>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* HEADING */
+.create-album-from-container>div>h2 {
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+/* OPEN-CLOSE BTN */
+.create-album-from-container>div>img {
+  width: 50px;
+  border: 2px solid white;
+  margin: 1%;
+  transition: all 0.5s ease;
+  border-radius: 50%;
+}

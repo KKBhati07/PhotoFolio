@@ -1,0 +1,19 @@
+/* -------------------------------------HEADER--------------------------- */
+
+.header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    background-color: var(--headerColor);
+}
+
+.icon {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.heading {
+    margin-left: 10px;
+    color: var(--fontColor);
+}

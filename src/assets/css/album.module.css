@@ -1,0 +1,74 @@
+/* -------------------------------------ALBUM COMPONENT---------------------------- */
+.albumNameContainer {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* BACK AND ADD IMAGE BUTTONS */
+.albumNameContainer>img {
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 0.2s ease;
+}
+
+/* ALBUM NAME */
+.albumNameContainer>p {
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+}
+
+
+/* IMAGES CONTAINER */
+.imagesContainer {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagesContainer>p {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+/* -----------------------------IMAGE POPUP-------------------------------- */
+.imagePopupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.548);
+    position: absolute;
+    top: 0;
+}
+
+.imagePopupContainer>div {
+    border: 2px solid white;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 10px 20px 20px black;
+    height: 80%;
+}
+
+.imagePopup {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.closeBtn {
+    box-shadow: 0px 0px 15px 5px black;
+    border-radius: 50%;
+    width: 40px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}

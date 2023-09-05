@@ -1,0 +1,24 @@
+/* ------------------------------ALBUM LIST CONTAINER--------------------- */
+
+.container {
+    margin-top: 10px;
+    width: 100vw;
+}
+
+.container>p {
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.albumContainer {
+    width: 100%;
+    overflow: scroll;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+
+}

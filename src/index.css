@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* setting margin and padding to 0 */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+
+}
+
+/* for scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* declaring root variables */
+:root {
+  --fontColor: white;
+  --headerColor: rgb(223, 68, 63);
+  --successNotifyColor: rgb(56, 136, 228);
+  --errorNotifyColor: rgb(231, 87, 79);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+
+/* for body */
+body {
+  background-color: rgb(0, 0, 0);
+
+}
+
+/* declaring hover classes */
+.item-hover:hover {
+  scale: 1.1;
+}
+
+.btn-hover:hover {
+  scale: 1.1;
+}
+
+.form-item-hover:hover {
+  filter: brightness(0.9);
+
+}

@@ -1,0 +1,41 @@
+/* --------------------------CREATE NEW ALBUM FORM------------------------ */
+.form {
+    border-top: 3px solid white;
+    border-radius: 10px;
+    width: 45vw;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(235, 107, 107);
+}
+
+/* HEADING */
+.heading {
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+/* INPUT */
+.form>input {
+    margin-left: 5%;
+    width: 90%;
+    outline: none;
+    height: 7vh;
+    font-size: 1.1rem;
+    padding-left: 5px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: rgb(211, 211, 211);
+}
+
+/* SUBMIT BUTTON */
+.form>input[type="submit"] {
+    background-color: rgb(131, 131, 131);
+    color: white;
+
+}
